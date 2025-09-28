@@ -47,24 +47,24 @@ public class App {
         // }
 
         // user input and print
-        // int[][] arr = new int[3][3];
-        // for (int r = 0; r < arr.length; r++) {
-        //     for (int c = 0; c < arr[r].length; c++) {
-        //         arr[r][c] = sc.nextInt();
-        //     }
-        // }
-        
-        //print usong for
+        int[][] arr = new int[3][3];
+        for (int r = 0; r < arr.length; r++) {
+            for (int c = 0; c < arr[r].length; c++) {
+                arr[r][c] = sc.nextInt();
+            }
+        }
+
+        // print usong for
         // for (int r = 0; r < arr.length; r++) {
         //     System.out.println(Arrays.toString(arr[r]));
         // }
 
-        //print using for each
-        // for (int[] is : arr) {
-        //     System.out.println(Arrays.toString(is));
+        // print using for each
+        for (int[] is : arr) {
+            System.out.println(Arrays.toString(is));
 
-        // }
+        }
 
-        sc.close();
+       sc.close();
     }
 }
